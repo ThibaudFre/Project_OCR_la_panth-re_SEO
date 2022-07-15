@@ -1040,3 +1040,34 @@ h4 {
         text-align: center;
     }
 }
+/*En dessous vous retrouverez les règles css concernant les modification des images textuelle en texte*/
+.title_texte, .citation_texte, .title2_texte{
+    font-family: Archivo,sans-serif; 
+    margin: auto;   
+}
+.title_texte{
+    width: 606px;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+.citation_texte{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    width: 561px;
+}
+.citation_name{
+    font-weight: 300;
+    font-style: initial;
+    font-size: 20px;
+}
+.title2_texte{
+    font-size: 22px;
+    width: 430px;
+}
+@media (max-width:601px) {
+    .title_texte, .citation_texte, .title2_texte{
+        width: 58vh;
+    }
+}
