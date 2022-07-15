@@ -1040,6 +1040,13 @@ h4 {
         text-align: center;
     }
 }
+/*En dessous vous retrouverez les règles cess concernant la modification responsive*/
+@media (min-width: 348px) and (max-width: 766px){
+    .portfolio-thumb{
+        max-width: 320px;
+        margin: 0 auto 24px auto;
+    }
+} 
 /*En dessous vous retrouverez les règles css concernant les modification des images textuelle en texte*/
 .title_texte, .citation_texte, .title2_texte{
     font-family: Archivo,sans-serif; 
@@ -1068,6 +1075,6 @@ h4 {
 }
 @media (max-width:601px) {
     .title_texte, .citation_texte, .title2_texte{
-        width: 58vh;
+        width: 61vh;
     }
 }
